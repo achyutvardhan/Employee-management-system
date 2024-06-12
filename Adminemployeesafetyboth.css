@@ -1,0 +1,143 @@
+.header {
+    background-color: skyblue;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .header a {
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .logout a {
+    font-size: 1em;
+    color: white;
+  }
+  
+  nav {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 300px;
+    background-color: #424a5b;
+    padding-top: 30px;
+    overflow-y: auto;
+    z-index: 900;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    padding: 15px 0;
+  }
+  
+  ul li a {
+    color: white;
+    font-weight: bold;
+    display: block;
+  }
+  
+  ul li a:hover {
+    color: skyblue;
+  }
+  
+  main {
+    margin-top: 60px;
+    margin-left: 150px;
+    padding: 20px;
+    height: 1030px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+  }
+  
+  header {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #87ceeb;
+  }
+  
+  .logo a:hover {
+    color: #005b99;
+  }
+  
+  main h2 {
+    color: #005b99;
+    border-bottom: 2px solid #87ceeb;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  main h3 {
+    color: #005b99;
+  }
+  
+  main section {
+    padding: 20px;
+    border-bottom: 1px solid #87ceeb;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: skyblue;
+    border: none;
+  }
+  button:hover {
+    background-color: #74add2;
+    color: white;
+  }
+  
+  button:active {
+    background-color: #b1e0ff;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    header h1 {
+      margin-bottom: 10px;
+    }
+  }
+  
