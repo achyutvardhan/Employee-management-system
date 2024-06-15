@@ -23,7 +23,7 @@ const AdminOptions = [
 ];
 
 
-const role = 'Employee'
+const role = 'Admin'
 const SideBar = document.getElementById('side-bar');
 const HomeAnchar = document.querySelector('.header>a');
 
